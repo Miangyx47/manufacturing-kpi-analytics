@@ -38,3 +38,39 @@ src/         Python automation scripts
 notebooks/   Exploratory data analysis
 dashboard/   Dashboard files and screenshots
 reports/     Generated KPI reports
+
+## Dashboard
+
+The project includes an automated Excel dashboard that connects to the MySQL manufacturing database and visualizes key operational metrics.
+
+![Manufacturing KPI Dashboard](dashboard/screenshots/manufacturing_dashboard.png)
+
+## Dashboard Metrics
+
+- Total production output
+- Yield rate
+- Defect rate
+- Capacity utilization
+- Abnormal production batches
+- Daily production trends
+- Daily defect-rate trends
+- Equipment defect-rate comparison
+- Equipment downtime comparison
+- Shift production performance
+
+## Data Pipeline
+
+```text
+Simulated Manufacturing Data
+        ↓
+CSV Data Source
+        ↓
+Python Data Validation
+        ↓
+MySQL Production Database
+        ↓
+SQL KPI Analysis
+        ↓
+Excel KPI Reports and Dashboard
+        ↓
+Automated Warning and Critical Alerts
