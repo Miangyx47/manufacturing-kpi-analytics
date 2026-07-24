@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+sqlalchemy
+pymysql
+python-dotenv
+openpyxl
+faker
+jupyter
+scikit-learn
