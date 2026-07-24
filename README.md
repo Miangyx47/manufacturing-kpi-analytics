@@ -37,7 +37,8 @@ sql/         MySQL database and KPI queries
 src/         Python automation scripts
 notebooks/   Exploratory data analysis
 dashboard/   Dashboard files and screenshots
-reports/     Generated KPI reports
+reports/     Generated KPI reports 
+```
 
 ## Dashboard
 
